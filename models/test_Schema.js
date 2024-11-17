@@ -12,4 +12,3 @@ const userSchema = new mongoose.Schema({
 })
 const Posts = mongoose.model('Posts',userSchema);
 module.exports = Posts
-############################################
